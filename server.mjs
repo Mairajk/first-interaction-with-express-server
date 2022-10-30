@@ -7,7 +7,7 @@ console.log("Hello");
 
 app.get('/', (req, res) => {
     res.send('Hello World! <br/> Welcome to server by Mairaj Khan')
-    console.log(`${req.ip} is looking for some food`);
+    console.log(`${req.ip} is visiting to server`);
 })
 
 // app.get('/water', (req, res) => {
